@@ -1,0 +1,80 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "ref.license",
+                "settings": {
+                    "foreground": "#cccccc"
+                }
+            },
+            {
+                "scope": "ref.snippet",
+                "settings": {
+                    "foreground": "#606060"
+                }
+            },
+            {
+                "scope": "key_words.bg3txt",
+                "settings": {
+                    "foreground": "#C586C0"
+                }
+            },
+            {
+                "scope": "comments.bg3txt",
+                "settings": {
+                    "foreground": "#6A9955"
+                }
+            },
+            {
+                "scope": "entry_name.bg3txt",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "entry_type.bg3txt",
+                "settings": {
+                    "foreground": "#4FC1FF"
+                }
+            },
+            {
+                "scope": "entry_import.bg3txt",
+                "settings": {
+                    "foreground": "#4FC1FF"
+                }
+            },
+            {
+                "scope": "entry_data.bg3txt",
+                "settings": {
+                    "foreground": "#9CDCFE"
+                }
+            },
+            {
+                "scope": "operators.bg3txt",
+                "settings": {
+                    "foreground": "#ffa200"
+                }
+            },
+            {
+                "scope": "all.bg3txt",
+                "settings": {
+                    "foreground": "#CE9178"
+                }
+            }
+        ]
+    },
+    "files.associations": {
+        "*.txt": "bg3txt",
+        "*.khn": "lua",
+        "*.lsx": "xml"
+    },
+    "workbench.colorCustomizations": {
+        "commandCenter.border": "#e7e7e799",
+        "titleBar.activeBackground": "#215732",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#21573299",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "sash.hoverBorder": "#2f7c47"
+    },
+    "peacock.color": "#215732"
+}

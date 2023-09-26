@@ -1,0 +1,18 @@
+{
+    "CreateHandle": {
+        "prefix": "handle",
+        "description": "Generates a random localization UUID handle...",
+        "scope": "xml,lsx,tsv",
+        "body": [
+            "\"h${UUID/[-]/g/g}\""
+        ]
+    },
+    "CreateUUID": {
+        "prefix": "uuid",
+        "description": "Generates a random UUID...",
+        "scope": "xml,lsx,tsv",
+        "body": [
+            "\"${UUID}\""
+        ]
+    }
+}
